@@ -1,29 +1,36 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <hi>Ejercicios de introducción</h1>
+    <ul>
+        <li><a href="introduccion/ejercicio1.php">Ejercicio 1</a></li>
+        <li><a href="introduccion/ejercicio2.php">Ejercicio 2</a></li>
+        <li><a href="introduccion/ejercicio3.php">Ejercicio 3</a></li>
+    </ul>
 
-$nombre = "Peper";
-$apellido1 = "López";
-$apellido2 = "López";
-$edad = 20;
-$peso = 80.5;
-
-echo "Nombre: <b>$nombre</b>";
-
-// para concatenar, con (.)
-# echo "nombre: <b>" . $nombre . "</b>";
-
-// para depurar el contenido de variables
-# print_r($nombre);
-
-//
-echo "<pre>";
-var_dump($nombre);
-echo "</pre>";
-
-// para depurar el contenido de variables
-$lista = array("nombre" => "Pepe", "edad" => 30, "peso" => 80);
-
-echo "<pre>";
-print_r($lista);
-echo "</pre>";
-
-?>
+    <hi>Ejercicios de estructuras de control</h1>
+    <ul>
+        <li><a href="estructuras_control/moneda.php">Ejercicio 1. Cara o cruz</a></li>
+        <li><a href="estructuras_control/notas.php">Ejercicio 2. Notas</a></li>
+        <li><a href="estructuras_control/dias.php">Ejercicio 3. Días de la semana</a></li>
+        <li><a href="estructuras_control/dado4.php">Ejercicio 4. Dados con IF</a></li>
+        <li><a href="estructuras_control/dado5.php">Ejercicio 5. Dados con SWITCH</a></li>
+        <li><a href="estructuras_control/dado6.php">Ejercicio 6. Dados sin tanto texto</a></li>
+        <li><a href="estructuras_control/dado7.php">Ejercicio 7. Dos dados</a></li>
+    </ul>
+    <hi>Ejercicios de bucles</h1>
+    <ul>
+        <li><a href="bucles/ejercicio1.php">Ejercicio 1. Nº del 1 al 10 en una fila</a></li>
+        <li><a href="bucles/ejercicio2.php">Ejercicio 2. nosdfasdf</a></li>
+        <li><a href="bucles/ejercicio3.php">Ejercicio 3. lkjñlkjñlkj</a></li>
+        <li><a href="bucles/ejercicio4.php">Ejercicio 4. lkjñlkj</a></li>
+        <li><a href="bucles/ejercicio5.php">Ejercicio 5. Dñlkjñlkj</a></li>
+    </ul>
+</body>
+</html>
